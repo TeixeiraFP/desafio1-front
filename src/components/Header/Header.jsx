@@ -5,13 +5,15 @@ function Header() {
   return (
     <S.Container>
       <S.ContainerTitle>
-        <S.Title>Calindra Tech</S.Title>
+        <S.Title>
+          <S.NavTitle href="/">Calindra Tech</S.NavTitle>
+        </S.Title>
         <S.Subtitle>A development company made by developers </S.Subtitle>
       </S.ContainerTitle>
       <S.Nav>
-        <S.Link>About Us</S.Link>
-        <S.Link>Contact</S.Link>
-        <S.Link>Work With Us</S.Link>
+        <S.Link href="#">About Us</S.Link>
+        <S.Link href="#">Contact</S.Link>
+        <S.Link href="#">Work With Us</S.Link>
       </S.Nav>
     </S.Container>
   );
