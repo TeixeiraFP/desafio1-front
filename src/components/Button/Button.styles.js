@@ -6,6 +6,7 @@ export const Button = styled.button`
   width: 150px;
   border-radius: 5px;
   border: none;
+  margin-left: 20px;
 
   font-family: Comic Sans MS, Comic Sans, cursive;
   color: #ffffff;

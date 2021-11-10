@@ -1,19 +1,16 @@
 import React from "react";
-import Button from "./components/Button/Button";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Input from "./components/Input/Input";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { GlobalStyle } from "./components/Styles/Global.styles";
+import Home from "./pages/home/Home";
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <GlobalStyle />
-      <Header />
 
-      <Input>Procure o seu produto:</Input>
-      <Button>Loading</Button>
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
