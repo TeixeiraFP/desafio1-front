@@ -11,7 +11,7 @@ export const Container = styled.body`
 export const Main = styled.main`
   background-color: #b5e48c;
   width: 100%;
-  height: 600px;
+  height: 700px;
 
   display: flex;
   flex-direction: column;
@@ -20,6 +20,8 @@ export const Main = styled.main`
 export const SectionForms = styled.section`
   margin-top: 50px;
   width: 40%;
+`;
+export const Forms = styled.form`
   display: flex;
   align-items: flex-end;
 `;
