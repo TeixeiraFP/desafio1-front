@@ -12,13 +12,15 @@ function Home() {
 
   const request = async (e) => {
     try {
-      await fetch(
-        "https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=camiseta&source=nanook"
-      )
-        .then((result) => result.json())
-        .then((data) => {
-          setDataApi(data.products);
-        });
+      if (valueInput.length !== 0) {
+        await fetch(
+          "https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=camiseta&source=nanook"
+        )
+          .then((result) => result.json())
+          .then((data) => {
+            setDataApi(data.products);
+          });
+      }
     } catch (error) {
       console.log(error);
     }
@@ -31,10 +33,11 @@ function Home() {
   const submit = (e) => {
     e.preventDefault();
     const value = e.target.value;
+    console.log(valueInput.length);
   };
-  const click = (e) => {
-    console.log("produto não encontrado");
-  };
+  // const isvalid = (e) => {
+  //   valueInput.length
+  // };
   console.log(valueInput);
 
   return (
