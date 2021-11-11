@@ -1,12 +1,12 @@
 import React from "react";
 import * as S from "./Products.styles";
 
-function Products() {
+function Products(props) {
   return (
     <S.Container>
-      <S.Title />
-      <S.Type />
-      <S.Id />
+      <S.Title>Produto: {props.productName}</S.Title>
+      <S.Type>Tipo: {props.productTypes}</S.Type>
+      <S.Id>SKU: {props.sku}</S.Id>
     </S.Container>
   );
 }

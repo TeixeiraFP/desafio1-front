@@ -23,3 +23,12 @@ export const SectionForms = styled.section`
   display: flex;
   align-items: flex-end;
 `;
+export const SectionProduct = styled.section`
+  width: 80%;
+  margin-top: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+`;

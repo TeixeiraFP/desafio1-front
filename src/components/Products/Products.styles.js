@@ -6,6 +6,7 @@ export const Container = styled.div`
 
   display: flex;
   flex-direction: column;
+  color: #168aad;
 `;
 
 export const Title = styled.h4`
