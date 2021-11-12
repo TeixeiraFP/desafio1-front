@@ -5,11 +5,11 @@ export const Container = styled.body`
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 `;
 
 export const Main = styled.main`
-  background-color: #b5e48c;
+  background-color: #008000;
   width: 100%;
   height: 700px;
 

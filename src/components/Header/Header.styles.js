@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const Container = styled.div`
   height: 100px;
   width: 100%;
-  background-color: #168aad;
+  background-color: #001d3d;
 
   display: flex;
   justify-content: space-around;
   align-items: center;
 
   color: #008000;
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-family: "Courier New", Courier, monospace;
 `;
 export const ContainerTitle = styled.div`
   display: flex;

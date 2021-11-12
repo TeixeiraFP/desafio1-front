@@ -5,12 +5,12 @@ export const Container = styled.div`
   flex-direction: column;
 `;
 export const Label = styled.label`
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-family: "Courier New", Courier, monospace;
   font-size: 18px;
   font-weight: 700;
   text-align: start;
 
-  color: #168aad;
+  color: #001d3d;
   margin-bottom: 15px;
 `;
 
