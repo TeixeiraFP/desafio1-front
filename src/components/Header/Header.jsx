@@ -8,12 +8,14 @@ function Header() {
         <S.Title>
           <S.NavTitle href="/">Calindra Tech</S.NavTitle>
         </S.Title>
-        <S.Subtitle>A development company made by developers </S.Subtitle>
+        <S.Subtitle>
+          Uma empresa de Desenvolvimento feita por Desenvolvedores{" "}
+        </S.Subtitle>
       </S.ContainerTitle>
       <S.Nav>
-        <S.Link href="#">About Us</S.Link>
-        <S.Link href="#">Contact</S.Link>
-        <S.Link href="#">Work With Us</S.Link>
+        <S.Link href="#">Sobre Nós</S.Link>
+        <S.Link href="#">Contatos</S.Link>
+        <S.Link href="#">Trabalhe Conosco</S.Link>
       </S.Nav>
     </S.Container>
   );
